@@ -1,0 +1,54 @@
+{
+   "creator": "Yosys 0.33 (git sha1 2584903a060)",
+   "invocation": "stat -liberty \"sky130.lib\" -json ",
+   "modules": {
+      "$paramod\\carry_lookahead_adder\\WIDTH=s32'00000000000000000000000000100000": {
+         "num_wires":         294,
+         "num_wire_bits":     419,
+         "num_pub_wires":     6,
+         "num_pub_wire_bits": 131,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         96,
+         "area":              880.844800,
+         "num_cells_by_type": {
+            "sky130_fd_sc_hd__maj3_1": 32,
+            "sky130_fd_sc_hd__xnor2_1": 64
+         }
+      },
+      "\\carry_save_adder": {
+         "num_wires":         322,
+         "num_wire_bits":     507,
+         "num_pub_wires":     7,
+         "num_pub_wire_bits": 192,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         64,
+         "area":              1071.027200,
+         "num_cells_by_type": {
+            "$paramod\\carry_lookahead_adder\\WIDTH=s32'00000000000000000000000000100000": 1,
+            "sky130_fd_sc_hd__maj3_1": 31,
+            "sky130_fd_sc_hd__xor3_1": 32
+         }
+      }
+   },
+      "design": {
+         "num_wires":         616,
+         "num_wire_bits":     926,
+         "num_pub_wires":     13,
+         "num_pub_wire_bits": 323,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         159,
+         "area":              1951.872000,
+         "num_cells_by_type": {
+            "sky130_fd_sc_hd__maj3_1": 63,
+            "sky130_fd_sc_hd__xnor2_1": 64,
+            "sky130_fd_sc_hd__xor3_1": 32
+         }
+      }
+}
+
